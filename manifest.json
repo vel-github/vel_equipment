@@ -1,0 +1,14 @@
+	{
+   "info": {
+      "name": "vel_equipment",
+      "version": 2
+   },
+   "default_locale" : "en",
+   "aliases" : {
+      "armor:ring_of_speed" : "file(entities/armor/ring_of_speed/ring_of_speed.json)",
+      "buffs:speed" : "file(data/buffs/speed/speed.json)"
+	},
+   "mixintos" : {
+      "stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)"
+	}
+  }

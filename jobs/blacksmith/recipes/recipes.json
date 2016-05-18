@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "armor": {
+         "recipes": {	  
+            "ring_of_speed": {
+               "recipe": "file(ring_of_speed_recipe.json)"
+				}                    
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "Ring of Speed",
+   "description": "A ring that grants a worker additional speed",
+   "flavor": "Melted gold, fused with a potion, in a ring? Sounds... precious!",
+   "portrait": "file(/entities/armor/ring_of_speed/ring_of_speed.png)",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "stonehearth:resources:gold:ore",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      },
+	  {
+		 "uri": "stonehearth:consumables:strength_tonic",
+		 "count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "vel_equipment:armor:ring_of_speed"
+      }
+   ]
+}

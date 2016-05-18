@@ -1,0 +1,58 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "display_name": "Ring of Speed",
+         "description": "A ring that grants a worker additional speed",
+         "icon": "file(ring_of_speed.png)"
+      },
+      "item": {
+         "category": "armor"
+      },	  
+      "stonehearth:material": {
+         "tags": "gold armor light_armor accessory"
+      },	  
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "true",			
+            "models": [
+               "file(ring_of_speed.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "true",			
+            "models": [
+               "file(ring_of_speed.qb)"
+            ]
+         }		 
+	},		 
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(ring_of_speed_iconic.json)"
+      },	  
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "accessory",
+         "roles": "worker_job",
+         "ilevel": 5,		 
+         "injected_buffs": [
+            "vel_equipment:buffs:speed"
+         ],
+         "equip_effect": "/stonehearth/data/effects/weapon_level_up"		 
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 120,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

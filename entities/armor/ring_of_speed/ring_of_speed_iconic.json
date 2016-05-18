@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "Ring of Speed",
+         "description": "So... shiny...",
+         "icon": "file(ring_of_speed.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.4,
+            "y": 0,
+            "z": 0
+         }
+      },	  
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(ring_of_speed_iconic.qb)"
+            ]
+         }
+      }
+   }
+}

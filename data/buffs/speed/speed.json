@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Ring of Speed",
+   "description": "So fast!",
+   "icon": "file(speed.png)",
+   "modifiers": {
+      "speed": {
+         "add": 100
+      }
+   }
+}
